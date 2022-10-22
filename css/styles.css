@@ -5,9 +5,9 @@
 body{
     background-color: #3B4252;
 }
-div {
-    /* border: 3px solid red; */
-}
+/* div {
+    border: 3px solid red;
+} */
 .navbar {
     max-width: 90%;
     padding-top: 1rem;
