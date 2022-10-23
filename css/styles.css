@@ -11,12 +11,14 @@ body{
 .navbar {
     max-width: 90%;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     /* border: 2px solid black; */
     justify-content: space-around;
     align-items: flex-end;
     background-color: #5E81AC;
     margin: 0 auto;
+    /* margin-bottom: 0.5rem; */
     /* border-radius: 1rem; */
 }
 .navbar-items-right {
@@ -36,10 +38,33 @@ body{
     color: black;
     /* border: 2px solid black; */
 }
-/* .topbody {
+.topbody {
     max-width: 90%;
     display: flex;
+    justify-content: center;
+    /* align-items: center; */
     background-color: #5e81ac;
     margin: 0 auto;
-    height: 200px;
-} */
+    /* border: 2px solid yellow; */
+    padding: 2rem 0;
+}
+.topbody-left {
+    padding: 2rem;
+    background-color: antiquewhite;
+    /* border: 2px solid black; */
+    width: 40%;
+}
+.topbody-left-button {
+    background-color: #008CBA;
+    font-size: 1.25rem;
+
+}
+.topbody-right {
+    background-color: aliceblue;
+    padding: 2rem;
+    /* border: 2px solid black; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
