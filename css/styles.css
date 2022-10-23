@@ -21,7 +21,9 @@ body{
 }
 .navbar-items-right {
     /* border: 2px solid yellow; */
+    list-style: none;
     display: flex;
+    margin-bottom: 0;
     gap: 2rem;
 }
 .header-logo {
@@ -32,6 +34,7 @@ body{
 .links {
     text-decoration: none;
     color: black;
+    /* border: 2px solid black; */
 }
 /* .topbody {
     max-width: 90%;
