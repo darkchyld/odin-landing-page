@@ -67,7 +67,7 @@ body{
 .topbody-left-button:hover {
     background-color: #ECEFF4;
     color: #2E3440;
-    cursor: grab;
+    cursor: pointer;
 }
 .topbody-right {
     background-color: aliceblue;
@@ -176,7 +176,7 @@ body{
 .ctabutton button:hover {
     background-color: #ECEFF4;
     color: #5E81AC;
-    cursor: grab;
+    cursor: pointer;
 }
 .foots {
     background-color: #5E81AC;
