@@ -13,6 +13,7 @@ body{
     padding-top: 1rem;
     padding-bottom: 1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-end;
     background-color: #5E81AC;
@@ -23,6 +24,7 @@ body{
     /* border: 2px solid yellow; */
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 0;
     gap: 2rem;
 }
@@ -40,6 +42,7 @@ body{
 .topbody {
     max-width: 90%;
     display: flex;
+    flex-shrink: 1;
     justify-content: center;
     background-color: #5e81ac;
     margin: 0 auto;
@@ -89,7 +92,7 @@ body{
     margin-top: 1rem;
     width: 40%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
     gap: 5px
     /* border: 2px solid black; */
@@ -110,4 +113,24 @@ body{
     margin-top: 0.5rem;
     font-size: 0.8rem;
     text-align: center;
+}
+.quotation {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: #E5E9F0;
+}
+.quotation blockquote {
+    max-width: 50%;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    padding: 6rem 0;
+}
+.quotes {
+    text-align: left;
+    margin: 0;
+}
+.author {
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
 }
